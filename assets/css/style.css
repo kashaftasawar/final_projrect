@@ -9,17 +9,21 @@ body {
 :root {
     --world-color: #0E2E50;
     --photo-color: #00B98E;
-    --pgh-color:#666565;
+    --pgh-color: #666565;
 }
-.heading{
+
+.heading {
     color: var(--world-color);
 }
-.green{
+
+.green {
     color: var(--photo-color);
 }
-.pgh{
+
+.pgh {
     color: var(--pgh-color);
 }
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -28,12 +32,14 @@ body {
 
 a,
 span {
-    list-style: none;
+    text-decoration: none;
 }
 
 ul {
-    text-decoration: none;
+    list-style: none;
+
 }
+
 /* header{
     background-image: url(../images/carousel-1.jpg);
     height: 100vh;
@@ -44,8 +50,13 @@ ul {
     font-weight: normal;
     font-weight: 400;
 }
-.bgs{
-    margin-top: -770px;
+
+.bgs {
+    margin-top: 20px;
+    position: fixed;
+    top: 40px;
+    z-index: 1000;
+    background: red;
 }
 
 .letters li a:hover {
@@ -80,27 +91,63 @@ ul {
     background-color: #0acc9f;
     color: white;
 }
- .btns{
+
+.btns {
     border: 1px solid #00b98ece;
     border-radius: 100%;
     padding: 20px;
     background-color: var(--photo-color);
     color: white;
- }
-.ms-6{
+}
+
+.ms-6 {
     margin-left: -1258px;
 }
-.ms-7{
+
+.ms-7 {
     margin-left: -120px;
     margin-top: -100px;
 }
-.section{
+
+.section {
     background-color: #00B98E;
     padding: 35px;
 }
-.sbtn:hover{
+
+.sbtn:hover {
     background-color: #133c68;
 }
-.sbtn{
+
+.sbtn {
     background-color: #0E2E50;
+}
+
+.ms {
+    margin-left: 1261px;
+}
+
+/* propertytype */
+#propertytype {
+    padding: 100px;
+}
+.cards {
+    border: 20px solid #cefcf159;
+
+}
+.child-cards{
+    padding: 20px;
+    border: 1px dotted var(--photo-color);
+}
+.icons img {
+    border: 2px dotted var(--photo-color);
+    border-radius: 100%;
+    padding: 10px;
+    background-color: white;
+}
+
+.child-cards:hover  h6{
+    color: white;
+}
+.child-cards:hover  span{
+    color: white;
 }
