@@ -130,24 +130,92 @@ ul {
 #propertytype {
     padding: 100px;
 }
+
 .cards {
     border: 20px solid #cefcf159;
 
 }
-.child-cards{
+
+.child-cards {
     padding: 20px;
-    border: 1px dotted var(--photo-color);
-}
-.icons img {
     border: 2px dotted var(--photo-color);
-    border-radius: 100%;
+}
+
+.icons {
+    border: 2px dotted var(--photo-color);
+    display: inline-block;
+}
+
+.icons img {
     padding: 10px;
     background-color: white;
 }
-
-.child-cards:hover  h6{
+.child-cards:hover{
+    background-color: var(--photo-color);
+}
+.child-cards:hover h6 {
     color: white;
 }
-.child-cards:hover  span{
+
+.child-cards:hover span {
     color: white;
+}
+
+/* about */
+.bod{
+    background-color: var(--photo-color);
+}
+.mes{
+    margin-left: 200px;
+}
+.bns{
+    border: 1px solid var(--photo-color);
+    background-color: white;
+    color: #00B98E;
+}
+
+/* property */
+#property{
+    padding:100px;
+    color: #666565;
+}
+.bgs{
+    background-color: var(--photo-color);
+}
+.border-top{
+    border: 1px dashed var(--photo-color) !important;
+}
+.mt-6{
+    margin-top: 220px;
+}
+.main-contact{
+    border: 1px dashed var(--photo-color);
+}
+.btnss:hover{
+    background-color: var(--world-color);
+}
+.btnss{
+    background-color: var(--world-color);
+}
+.apps{
+    margin-left:50px ;
+}
+.apps a:hover{
+    background-color: var(--photo-color);
+    color: white;
+}
+.apps a{
+    border-radius: 100%;
+    margin-top: -20px;
+    background-color: white;
+    color: #00B98E;
+}
+.caro{
+    border: 1px dashed var(--photo-color);
+}
+.ms-8{
+margin-left: -483px;
+}
+.texts{
+    margin-left: 150px;
 }
