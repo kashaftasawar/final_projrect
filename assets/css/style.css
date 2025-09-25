@@ -10,6 +10,7 @@ body {
     --world-color: #0E2E50;
     --photo-color: #00B98E;
     --pgh-color: #666565;
+    --f-color: #FFFFFF80;
 }
 
 .heading {
@@ -150,9 +151,11 @@ ul {
     padding: 10px;
     background-color: white;
 }
-.child-cards:hover{
+
+.child-cards:hover {
     background-color: var(--photo-color);
 }
+
 .child-cards:hover h6 {
     color: white;
 }
@@ -162,60 +165,125 @@ ul {
 }
 
 /* about */
-.bod{
+.bod {
     background-color: var(--photo-color);
 }
-.mes{
+
+.mes {
     margin-left: 200px;
 }
-.bns{
+
+.bns {
     border: 1px solid var(--photo-color);
     background-color: white;
     color: #00B98E;
 }
 
 /* property */
-#property{
-    padding:100px;
+#property {
+    padding: 100px;
     color: #666565;
 }
-.bgs{
+
+.bgs {
     background-color: var(--photo-color);
 }
-.border-top{
+
+.border-top {
     border: 1px dashed var(--photo-color) !important;
 }
-.mt-6{
+
+.mt-6 {
     margin-top: 220px;
 }
-.main-contact{
+
+.main-contact {
     border: 1px dashed var(--photo-color);
 }
-.btnss:hover{
+
+.btnss:hover {
     background-color: var(--world-color);
 }
-.btnss{
+
+.btnss {
     background-color: var(--world-color);
 }
-.apps{
-    margin-left:50px ;
+
+.apps {
+    margin-left: 50px;
 }
-.apps a:hover{
+
+.apps a:hover {
     background-color: var(--photo-color);
     color: white;
 }
-.apps a{
+
+.apps a {
     border-radius: 100%;
     margin-top: -20px;
     background-color: white;
     color: #00B98E;
 }
-.caro{
+
+.caro {
     border: 1px dashed var(--photo-color);
 }
-.ms-8{
-margin-left: -483px;
+
+.ms-8 {
+    margin-left: -483px;
 }
-.texts{
+
+.texts {
     margin-left: 150px;
 }
+
+.fcolor {
+    color: var(--f-color);
+}
+
+#footer {
+    background-color: var(--world-color);
+}
+
+.btn-social:hover {
+    background-color: white;
+    color: var(--photo-color);
+}
+
+.btn-social {
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid var(--f-color);
+    padding: 2px;
+    margin-left: 5px;
+    color: white;
+}
+
+.imgwidth img {
+    width: 80px;
+    border: 4px solid white;
+    border-radius: 5px;
+}
+
+.btnsss {
+    background-color: var(--photo-color);
+    color: white;
+    margin-top: -50px;
+    margin-left: 168px;
+}
+
+.btnss:hover {
+    background-color: var(--photo-color);
+    color: white;
+}
+
+.coe {
+    background-color: var(--world-color);
+
+}
+
+
+
