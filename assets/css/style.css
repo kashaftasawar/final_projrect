@@ -208,12 +208,13 @@ ul {
     border: 1px dashed var(--photo-color);
 }
 
-.btnss:hover {
-    background-color: var(--world-color);
-}
 
 .btnss {
     background-color: var(--world-color);
+}
+.btnss:hover {
+background-color: var(--f-color);
+color: white;
 }
 
 .apps {
@@ -292,5 +293,27 @@ ul {
 
 }
 
-
-
+.breadcrumb-item{
+    color: var(--photo-color);
+}
+.ks{
+    font-size: 50px;
+}
+.hs{
+    width: 100%;
+    height: 470px;
+}
+.fs{
+    font-size: 100px;
+}
+.iconss{
+    border: 1px dashed var(--photo-color);
+    border-radius: 100%;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+}
+.contact-cards{
+    border: 1px dashed var(--photo-color);
+    padding:10px;
+}
