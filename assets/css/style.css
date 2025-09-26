@@ -156,8 +156,7 @@ ul {
     background-color: var(--photo-color);
 }
 
-.child-cards:hover h6 {
-=======
+
 .child-cards:hover{
     background-color: var(--photo-color);
 }
