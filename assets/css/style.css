@@ -151,12 +151,19 @@ ul {
     padding: 10px;
     background-color: white;
 }
+<<<<<<< HEAD
 
 .child-cards:hover {
     background-color: var(--photo-color);
 }
 
 .child-cards:hover h6 {
+=======
+.child-cards:hover{
+    background-color: var(--photo-color);
+}
+.child-cards:hover  h6{
+>>>>>>> cc68f6cea6f6aa119bef5fef19cf71273bcf2d88
     color: white;
 }
 
