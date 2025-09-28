@@ -314,3 +314,19 @@ color: white;
     border: 1px dashed var(--photo-color);
     padding:10px;
 }
+.back-to-top {
+  position: fixed;         /* fixed position screen pe */
+  bottom: 20px;            /* niche se 20px */
+  right: 20px;             /* right side se 20px */
+  display: none;           /* start me hidden hoga */
+  z-index: 1000;           /* navbar ke upar rahe */
+  background-color: #00B98E;
+}
+@media (max-width: 576px) {
+  .back-to-top {
+    bottom: 15px;
+    right: 15px;
+  }
+}
+
+
