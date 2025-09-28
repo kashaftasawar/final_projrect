@@ -46,9 +46,12 @@ ul {
     height: 100vh;
     width: 100dvw;
 } */
+ .navbar-brand span{
+color: var(--photo-color);
+ }
 .letters li a {
     color: var(--world-color);
-    font-weight: normal;
+    font-size: px;
     font-weight: 400;
 }
 
@@ -321,6 +324,35 @@ color: white;
   display: none;           /* start me hidden hoga */
   z-index: 1000;           /* navbar ke upar rahe */
   background-color: #00B98E;
+}
+
+/* Splide.js Prev/Next Buttons */
+.splide__arrow {
+  background: var(--photo-color) !important;   /* background green */
+  color: white !important;        /* arrow icon white */
+  opacity: 1;                     /* hamesha visible */
+  width: 40px;                    /* button size */
+  height: 40px;
+  border-radius: 50%;             /* gol shape */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.splide__arrow:hover {
+  background: var(--photo-color) !important;
+}
+
+/* Left button thoda bahar */
+.splide__arrow--prev {
+  left: -90px;   /* content se door karne ke liye negative value */
+}
+
+/* Right button thoda bahar */
+.splide__arrow--next {
+  right: -90px;
 }
 @media (max-width: 576px) {
   .back-to-top {
