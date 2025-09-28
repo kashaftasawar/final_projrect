@@ -738,20 +738,23 @@
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      var splide = new Splide('.splide', {
-        type: "loop",
-        perPage: 2,
-        width: 1000,
-        gap: 25,
-        autoplay: true,
-        speed: 2000,
-        keyboard: true
-      });
-      splide.mount();
-    });
-  </script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    new Splide('.splide', {
+      type   : 'loop',
+      perPage: 2,   // Desktop pe 3 slides
+      gap    : '1rem', // cards ke darmiyan gap
+      breakpoints: {
+        992: {
+          perPage: 2,   // Tablet pe 2 slides
+        },
+        576: {
+          perPage: 1,   // Mobile pe 1 slide
+        },
+      },
+    }).mount();
+  });
+</script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="./assets/js/main.js"></script>
   <script>
